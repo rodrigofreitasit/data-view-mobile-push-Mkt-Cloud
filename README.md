@@ -1,3 +1,8 @@
+# Data View Mobile Push | Marketing Cloud
+
+##### Data View _PushAddress 
+
+
 | Field Name       | Data Type (Length) | Required (Y/N) | Data Default |
 |------------------|--------------------|----------------|--------------|
 | _ContactID       | Text               | Y              |              |
@@ -35,3 +40,17 @@
 | _Device          | Text(100)          | N              |              |
 | _HardwareId      | Text(100)          | N              |              |
 | _DeviceType      | Text(20)           | N              |              |
+
+
+##### Data View _PushTag 
+
+
+| Field Name    | Data Type (Length) | Required (Y/N) | Data Default |
+|---------------|--------------------|----------------|--------------|
+| _DeviceID     | Text(200)          | Y              |              |
+| _APID         | Text(38)           | Y              |              |
+| _Value        | Text(128)          | N              |              |
+| _CreatedDate  | Date               | Y              | GETDATE()    |
+| _CreatedBy    | Text               | N              |              |
+| _ModifiedDate | Date               | Y              | GETDATE()    |
+| _ModifiedBy   | Text               | N              |              |
